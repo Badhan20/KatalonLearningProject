@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create TC in Manual Mode and handle failure</description>
+   <name>TC_3_Manual Mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b57df6c8-8118-497d-842a-362b661bfa66</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_7_Set TC Level Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7540643a-1391-4b7c-981a-e0e8db4fe9ad</testCaseGuid>
+   <variable>
+      <defaultValue>'https://opensource-demo.orangehrmlive.com/index.php/auth/login'</defaultValue>
+      <description></description>
+      <id>517a56d8-ccaf-46a5-ad23-d6953188a1c7</id>
+      <masked>false</masked>
+      <name>WebURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>df6fda2a-ecd3-419b-8cab-e1ec8ec45247</id>
+      <masked>false</masked>
+      <name>WebUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>8f1f0fc7-0cbe-4562-8381-a9de557220cb</id>
+      <masked>false</masked>
+      <name>WebPassword</name>
+   </variable>
+</TestCaseEntity>

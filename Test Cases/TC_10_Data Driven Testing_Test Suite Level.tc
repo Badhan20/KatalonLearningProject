@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data driven testing with excel file</description>
+   <name>TC_10_Data Driven Testing_Test Suite Level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>076ac505-88e4-4741-9959-a018c3b69d80</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31a228ec-39f2-4b52-8f87-7726d71d32d9</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f596ff0c-569e-41bf-84b4-91874e278232</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
