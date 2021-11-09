@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_2_First Test Suite_Firefox,Firefox 93.0,Run all test cases with firefox browser,,2021-11-03 19:09:25,2021-11-03 19:13:30,4m - 4.654s,PASSED
+,,,,,,,
+Test Cases/TC_1_Facebook Login,Firefox 93.0,,,2021-11-03 19:09:26,2021-11-03 19:10:52,1m - 25.976s,PASSED
+"openBrowser("""")",Firefox 93.0,,,2021-11-03 19:09:27,2021-11-03 19:10:01,33.232s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 93.0,,,2021-11-03 19:10:01,2021-11-03 19:10:07,6.058s,PASSED
+"setText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""invalidemial646364@gmail.com"")",Firefox 93.0,,,2021-11-03 19:10:07,2021-11-03 19:10:11,4.753s,PASSED
+"setEncryptedText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"")",Firefox 93.0,,,2021-11-03 19:10:11,2021-11-03 19:10:12,0.897s,PASSED
+"click(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In""))",Firefox 93.0,,,2021-11-03 19:10:12,2021-11-03 19:10:45,32.343s,PASSED
+"verifyElementPresent(findTestObject(""OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 400)",Firefox 93.0,,,2021-11-03 19:10:45,2021-11-03 19:10:48,3.805s,PASSED
+closeBrowser(),Firefox 93.0,,,2021-11-03 19:10:48,2021-11-03 19:10:52,3.617s,PASSED
+,,,,,,,
+Test Cases/TC_2_PIC Portal Login,Firefox 93.0,Facebook Login Page Validation,,2021-11-03 19:10:52,2021-11-03 19:11:33,40.617s,PASSED
+"openBrowser("""")",Firefox 93.0,,,2021-11-03 19:10:54,2021-11-03 19:11:10,15.520s,PASSED
+"navigateToUrl(""https://devpic.my-patient.com/Account/Login"")",Firefox 93.0,,,2021-11-03 19:11:10,2021-11-03 19:11:24,13.960s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies""))",Firefox 93.0,,,2021-11-03 19:11:24,2021-11-03 19:11:25,1.311s,PASSED
+"setText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username""), ""abcdhsahahshssa"")",Firefox 93.0,,,2021-11-03 19:11:25,2021-11-03 19:11:26,1.169s,PASSED
+"setEncryptedText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password""), ""zfO4vmc9hqfbcPGAzD7hlg=="")",Firefox 93.0,,,2021-11-03 19:11:26,2021-11-03 19:11:27,0.513s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Login""))",Firefox 93.0,,,2021-11-03 19:11:27,2021-11-03 19:11:28,1.462s,PASSED
+"verifyElementPresent(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password""), 0)",Firefox 93.0,,,2021-11-03 19:11:28,2021-11-03 19:11:29,0.868s,PASSED
+closeBrowser(),Firefox 93.0,,,2021-11-03 19:11:29,2021-11-03 19:11:33,3.693s,PASSED
+,,,,,,,
+Test Cases/TC_4_Script Mode,Firefox 93.0,TC with Script Mode,,2021-11-03 19:11:33,2021-11-03 19:13:30,1m - 57.086s,PASSED
+"openBrowser(""http://lifecharger.org/"")",Firefox 93.0,,,2021-11-03 19:11:34,2021-11-03 19:12:21,46.741s,PASSED
+maximizeWindow(),Firefox 93.0,,,2021-11-03 19:12:21,2021-11-03 19:12:21,0.064s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Firefox 93.0,,,2021-11-03 19:12:21,2021-11-03 19:12:44,23.371s,PASSED
+"setText(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",Firefox 93.0,,,2021-11-03 19:12:44,2021-11-03 19:12:45,0.736s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Firefox 93.0,,,2021-11-03 19:12:45,2021-11-03 19:13:07,22.574s,PASSED
+"click(findTestObject(""Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home""))",Firefox 93.0,,,2021-11-03 19:13:07,2021-11-03 19:13:28,20.917s,PASSED
+closeBrowser(),Firefox 93.0,,,2021-11-03 19:13:28,2021-11-03 19:13:30,1.655s,PASSED

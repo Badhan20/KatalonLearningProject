@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_2_First Test Suite_Edge,Edge Chromium 95,Run all test cases with Edge browser,,2021-11-03 19:18:48,2021-11-03 19:23:32,4m - 43.760s,FAILED
+,,,,,,,
+Test Cases/TC_1_Facebook Login,Edge Chromium 95,,,2021-11-03 19:18:49,2021-11-03 19:19:46,56.751s,PASSED
+"openBrowser("""")",Edge Chromium 95,,,2021-11-03 19:18:51,2021-11-03 19:19:03,11.981s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Edge Chromium 95,,,2021-11-03 19:19:03,2021-11-03 19:19:09,5.616s,PASSED
+"setText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""invalidemial646364@gmail.com"")",Edge Chromium 95,,,2021-11-03 19:19:09,2021-11-03 19:19:10,0.917s,PASSED
+"setEncryptedText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"")",Edge Chromium 95,,,2021-11-03 19:19:10,2021-11-03 19:19:11,0.799s,PASSED
+"click(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In""))",Edge Chromium 95,,,2021-11-03 19:19:11,2021-11-03 19:19:42,31.423s,PASSED
+"verifyElementPresent(findTestObject(""OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 400)",Edge Chromium 95,,,2021-11-03 19:19:42,2021-11-03 19:19:45,2.544s,PASSED
+closeBrowser(),Edge Chromium 95,,,2021-11-03 19:19:45,2021-11-03 19:19:46,1.415s,PASSED
+,,,,,,,
+Test Cases/TC_2_PIC Portal Login,Edge Chromium 95,Facebook Login Page Validation,,2021-11-03 19:20:44,2021-11-03 19:21:07,22.922s,FAILED
+"openBrowser("""")",Edge Chromium 95,,,2021-11-03 19:20:44,2021-11-03 19:20:51,6.726s,PASSED
+"navigateToUrl(""https://devpic.my-patient.com/Account/Login"")",Edge Chromium 95,,,2021-11-03 19:20:51,2021-11-03 19:21:03,11.962s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies""))",Edge Chromium 95,,,2021-11-03 19:21:03,2021-11-03 19:21:04,0.792s,FAILED
+"setText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username""), ""abcdhsahahshssa"")",Edge Chromium 95,,,2021-11-03 19:21:04,2021-11-03 19:21:04,0.550s,PASSED
+"setEncryptedText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password""), ""zfO4vmc9hqfbcPGAzD7hlg=="")",Edge Chromium 95,,,2021-11-03 19:21:04,2021-11-03 19:21:05,0.369s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Login""))",Edge Chromium 95,,,2021-11-03 19:21:05,2021-11-03 19:21:06,1.244s,PASSED
+"verifyElementPresent(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password""), 0)",Edge Chromium 95,,,2021-11-03 19:21:06,2021-11-03 19:21:06,0.270s,PASSED
+closeBrowser(),Edge Chromium 95,,,2021-11-03 19:21:06,2021-11-03 19:21:07,0.968s,PASSED
+,,,,,,,
+Test Cases/TC_4_Script Mode,Edge Chromium 95,TC with Script Mode,,2021-11-03 19:21:07,2021-11-03 19:23:32,2m - 24.780s,PASSED
+"openBrowser(""http://lifecharger.org/"")",Edge Chromium 95,,,2021-11-03 19:21:08,2021-11-03 19:21:52,44.280s,PASSED
+maximizeWindow(),Edge Chromium 95,,,2021-11-03 19:21:52,2021-11-03 19:21:53,0.305s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Edge Chromium 95,,,2021-11-03 19:21:53,2021-11-03 19:22:26,33.024s,PASSED
+"setText(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",Edge Chromium 95,,,2021-11-03 19:22:26,2021-11-03 19:22:26,0.384s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Edge Chromium 95,,,2021-11-03 19:22:26,2021-11-03 19:23:00,33.780s,PASSED
+"click(findTestObject(""Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home""))",Edge Chromium 95,,,2021-11-03 19:23:00,2021-11-03 19:23:30,30.557s,PASSED
+closeBrowser(),Edge Chromium 95,,,2021-11-03 19:23:30,2021-11-03 19:23:32,1.668s,PASSED

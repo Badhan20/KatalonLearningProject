@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_5_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven desting with excel file,,2021-11-09 18:03:36,2021-11-09 18:05:29,1m - 53.746s,PASSED
+,,,,,,,
+Test Cases/TC_10_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:03:37,2021-11-09 18:04:04,27.316s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-09 18:03:37,2021-11-09 18:03:50,12.542s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-09 18:03:50,2021-11-09 18:03:50,0.334s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-09 18:03:50,2021-11-09 18:03:51,1.061s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-09 18:03:51,2021-11-09 18:03:52,0.839s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-09 18:03:52,2021-11-09 18:03:59,6.659s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-09 18:03:59,2021-11-09 18:03:59,0.500s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-09 18:03:59,2021-11-09 18:04:01,1.784s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:01,2021-11-09 18:04:01,0.411s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:01,2021-11-09 18:04:03,1.502s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-09 18:04:03,2021-11-09 18:04:04,0.891s,PASSED
+,,,,,,,
+Test Cases/TC_10_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:04:04,2021-11-09 18:04:27,23.562s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-09 18:04:04,2021-11-09 18:04:13,8.903s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-09 18:04:13,2021-11-09 18:04:13,0.155s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-09 18:04:13,2021-11-09 18:04:14,0.853s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-09 18:04:14,2021-11-09 18:04:15,0.857s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:15,2021-11-09 18:04:22,7.416s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-09 18:04:22,2021-11-09 18:04:23,0.462s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:23,2021-11-09 18:04:25,2.016s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:25,2021-11-09 18:04:25,0.405s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:25,2021-11-09 18:04:27,1.607s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-09 18:04:27,2021-11-09 18:04:27,0.855s,PASSED
+,,,,,,,
+Test Cases/TC_10_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:04:28,2021-11-09 18:04:48,20.053s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-09 18:04:28,2021-11-09 18:04:35,7.819s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-09 18:04:35,2021-11-09 18:04:36,0.170s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-09 18:04:36,2021-11-09 18:04:36,0.846s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-09 18:04:36,2021-11-09 18:04:37,0.889s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:37,2021-11-09 18:04:43,5.270s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-09 18:04:43,2021-11-09 18:04:43,0.465s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:43,2021-11-09 18:04:45,1.818s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:45,2021-11-09 18:04:45,0.468s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:45,2021-11-09 18:04:47,1.463s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-09 18:04:47,2021-11-09 18:04:48,0.825s,PASSED
+,,,,,,,
+Test Cases/TC_10_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:04:48,2021-11-09 18:05:08,20.702s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-09 18:04:48,2021-11-09 18:04:56,7.918s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-09 18:04:56,2021-11-09 18:04:56,0.154s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-09 18:04:56,2021-11-09 18:04:57,0.912s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-09 18:04:57,2021-11-09 18:04:57,0.791s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-09 18:04:57,2021-11-09 18:05:03,5.445s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-09 18:05:03,2021-11-09 18:05:03,0.492s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:03,2021-11-09 18:05:05,1.872s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:05,2021-11-09 18:05:06,0.551s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:06,2021-11-09 18:05:07,1.684s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-09 18:05:07,2021-11-09 18:05:08,0.855s,PASSED
+,,,,,,,
+Test Cases/TC_10_Data Driven Testing_Test Suite Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:05:08,2021-11-09 18:05:29,21.131s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-09 18:05:08,2021-11-09 18:05:16,7.978s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-09 18:05:16,2021-11-09 18:05:17,0.145s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-09 18:05:17,2021-11-09 18:05:17,0.826s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-09 18:05:17,2021-11-09 18:05:18,0.776s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:18,2021-11-09 18:05:24,6.180s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-09 18:05:24,2021-11-09 18:05:25,0.406s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:25,2021-11-09 18:05:26,1.797s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:26,2021-11-09 18:05:27,0.403s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-09 18:05:27,2021-11-09 18:05:29,1.742s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-09 18:05:29,2021-11-09 18:05:29,0.858s,PASSED

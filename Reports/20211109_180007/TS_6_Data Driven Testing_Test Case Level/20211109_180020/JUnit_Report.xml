@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6_Data Driven Testing_Test Case Level" time="107.722" tests="1" failures="0" errors="0">
+   <testsuite name="TS_6_Data Driven Testing_Test Case Level" tests="1" failures="0" errors="0" time="107.722" skipped="0" timestamp="2021-11-09 18:00:26" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_6_Data Driven Testing_Test Case Level">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211109_180007\\TS_6_Data Driven Testing_Test Case Level\\20211109_180020"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211109_180007\\TS_6_Data Driven Testing_Test Case Level\\20211109_180020\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="e036c80ca217009569cedd52e456ba35"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_11_Data Driven Testing_Test Case Level" time="105.958" classname="Test Cases/TC_11_Data Driven Testing_Test Case Level" status="PASSED">
+         <system-out><![CDATA[2021-11-09 18:00:26 - [TEST_CASE][PASSED] - Test Cases/TC_11_Data Driven Testing_Test Case Level: Test Cases/TC_11_Data Driven Testing_Test Case Level
+
+2021-11-09 18:00:27 - [TEST_STEP][PASSED] - for ([rowNumber = 1, rowNumber <= findTestData("DF_3_Data Driven Testing").getRowNumbers(), (rowNumber++)]): Browser is closed
+
+2021-11-09 18:00:29 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:00:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 18:00:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 18:00:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:00:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 18:00:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 18:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("DF_3_Data Driven Testing").getValue(1, rowNumber)): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:00:44 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:00:44 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), findTestData("DF_3_Data Driven Testing").getValue(2, rowNumber)): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:00:45 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:00:45 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:00:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:00:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:00:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:00:51 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:00:52 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:00:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-09 18:00:54 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-09 18:00:54 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:00:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 18:00:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 18:01:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 18:01:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 18:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("DF_3_Data Driven Testing").getValue(1, rowNumber)): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:04 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), findTestData("DF_3_Data Driven Testing").getValue(2, rowNumber)): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:05 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:05 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:11 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:11 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-09 18:01:14 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-09 18:01:14 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 18:01:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 18:01:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 18:01:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 18:01:22 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("DF_3_Data Driven Testing").getValue(1, rowNumber)): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:23 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), findTestData("DF_3_Data Driven Testing").getValue(2, rowNumber)): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:24 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:24 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:29 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:29 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:30 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-09 18:01:32 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-09 18:01:32 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 18:01:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 18:01:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 18:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 18:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("DF_3_Data Driven Testing").getValue(1, rowNumber)): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), findTestData("DF_3_Data Driven Testing").getValue(2, rowNumber)): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:44 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:01:44 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:01:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:01:49 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:01:49 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:01:50 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:01:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-09 18:01:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-11-09 18:01:52 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 18:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 18:02:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-09 18:02:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 18:02:01 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 18:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), findTestData("DF_3_Data Driven Testing").getValue(1, rowNumber)): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:02:02 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-09 18:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), findTestData("DF_3_Data Driven Testing").getValue(2, rowNumber)): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:02:03 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-09 18:02:03 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-09 18:02:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:02:10 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-09 18:02:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:02:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img"))
+
+2021-11-09 18:02:10 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-09 18:02:10 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-09 18:02:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-09 18:02:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-09 18:00:26 - [TEST_SUITE][PASSED] - TS_6_Data Driven Testing_Test Case Level: Test Cases/TC_11_Data Driven Testing_Test Case Level]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

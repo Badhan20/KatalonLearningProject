@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_3_Manual Mode/Page_OrangeHRM/img",
+      "brokenLocator": "//div[@id\u003d\u0027dashboard-quick-launch-panel-menu_holder\u0027]/table/tbody/tr/td[6]/div/a/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@src \u003d \u0027/webres_6051af48107ce6.31500353/orangehrmTimePlugin/images/MyTimesheet.png\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20211109_171404/TS_5_Data Driven Testing/20211109_171404/Object Repository/OR_3_Manual Mode/Page_OrangeHRM/img_BASIC.png"
+    }
+  ]
+}

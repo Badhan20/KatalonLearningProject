@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_3_API Test,,,,2021-11-04 23:40:25,2021-11-04 23:40:30,5.239s,PASSED
+,,,,,,,
+Test Cases/TC_5_API Test/Validate REST_SingleUserDetails,,Validate Single User Details with RESTful API,,2021-11-04 23:40:26,2021-11-04 23:40:30,4.508s,PASSED
+"responsebody = sendRequest(findTestObject(""OR_5_API Test/REST_SingleUserDetails""))",,,,2021-11-04 23:40:27,2021-11-04 23:40:30,3.207s,PASSED
+"verifyResponseStatusCode(responsebody, 200)",,,,2021-11-04 23:40:30,2021-11-04 23:40:30,0.050s,PASSED
+"verifyElementPropertyValue(responsebody, ""data.first_name"", ""Janet"")",,,,2021-11-04 23:40:30,2021-11-04 23:40:30,0.219s,PASSED

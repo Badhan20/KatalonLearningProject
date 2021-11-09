@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6_Data Driven Testing_Test Case Level,Chrome 95.0.4638.69,Data Driven Testing for Test Case Level,,2021-11-09 18:00:26,2021-11-09 18:02:12,1m - 46.518s,PASSED
+,,,,,,,
+Test Cases/TC_11_Data Driven Testing_Test Case Level,Chrome 95.0.4638.69,Data driven testing with excel file,,2021-11-09 18:00:26,2021-11-09 18:02:12,1m - 45.958s,PASSED
+"for ([rowNumber = 1, rowNumber <= findTestData(""DF_3_Data Driven Testing"").getRowNumbers(), (rowNumber++)])",Chrome 95.0.4638.69,,,2021-11-09 18:00:27,2021-11-09 18:02:12,1m - 45.196s,PASSED

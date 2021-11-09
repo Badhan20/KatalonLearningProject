@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1_First Test Suite,Chrome 95.0.4638.69,,,2021-11-03 18:00:36,2021-11-03 18:03:54,3m - 17.530s,PASSED
+,,,,,,,
+Test Cases/TC_1_Facebook Login,Chrome 95.0.4638.69,,,2021-11-03 18:00:37,2021-11-03 18:01:22,45.509s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 18:00:38,2021-11-03 18:00:43,4.932s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 95.0.4638.69,,,2021-11-03 18:00:43,2021-11-03 18:00:45,2.282s,PASSED
+"setText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""invalidemial646364@gmail.com"")",Chrome 95.0.4638.69,,,2021-11-03 18:00:45,2021-11-03 18:00:46,1.170s,PASSED
+"setEncryptedText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"")",Chrome 95.0.4638.69,,,2021-11-03 18:00:46,2021-11-03 18:00:47,0.749s,PASSED
+"click(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-03 18:00:47,2021-11-03 18:01:19,31.881s,PASSED
+"verifyElementPresent(findTestObject(""OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 400)",Chrome 95.0.4638.69,,,2021-11-03 18:01:19,2021-11-03 18:01:21,2.503s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-03 18:01:21,2021-11-03 18:01:22,0.904s,PASSED
+,,,,,,,
+Test Cases/TC_2_PIC Portal Login,Chrome 95.0.4638.69,Facebook Login Page Validation,,2021-11-03 18:01:22,2021-11-03 18:01:36,14.083s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-03 18:01:23,2021-11-03 18:01:25,2.034s,PASSED
+"navigateToUrl(""https://devpic.my-patient.com/Account/Login"")",Chrome 95.0.4638.69,,,2021-11-03 18:01:25,2021-11-03 18:01:29,3.930s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies""))",Chrome 95.0.4638.69,,,2021-11-03 18:01:29,2021-11-03 18:01:30,1.012s,PASSED
+"setText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username""), ""abcdhsahahshssa"")",Chrome 95.0.4638.69,,,2021-11-03 18:01:30,2021-11-03 18:01:32,2.279s,PASSED
+"setEncryptedText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password""), ""zfO4vmc9hqfbcPGAzD7hlg=="")",Chrome 95.0.4638.69,,,2021-11-03 18:01:32,2021-11-03 18:01:33,0.657s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Login""))",Chrome 95.0.4638.69,,,2021-11-03 18:01:33,2021-11-03 18:01:35,1.440s,PASSED
+"verifyElementPresent(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password""), 0)",Chrome 95.0.4638.69,,,2021-11-03 18:01:35,2021-11-03 18:01:35,0.610s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-03 18:01:35,2021-11-03 18:01:36,1.310s,PASSED
+,,,,,,,
+Test Cases/TC_4_Script Mode,Chrome 95.0.4638.69,TC with Script Mode,,2021-11-03 18:01:36,2021-11-03 18:03:54,2m - 17.163s,PASSED
+"openBrowser(""http://lifecharger.org/"")",Chrome 95.0.4638.69,,,2021-11-03 18:01:37,2021-11-03 18:02:17,39.299s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-03 18:02:17,2021-11-03 18:02:17,0.182s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 95.0.4638.69,,,2021-11-03 18:02:17,2021-11-03 18:02:49,32.242s,PASSED
+"setText(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",Chrome 95.0.4638.69,,,2021-11-03 18:02:49,2021-11-03 18:02:50,0.815s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Chrome 95.0.4638.69,,,2021-11-03 18:02:50,2021-11-03 18:03:22,32.041s,PASSED
+"click(findTestObject(""Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home""))",Chrome 95.0.4638.69,,,2021-11-03 18:03:22,2021-11-03 18:03:53,30.818s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-03 18:03:53,2021-11-03 18:03:54,0.876s,PASSED

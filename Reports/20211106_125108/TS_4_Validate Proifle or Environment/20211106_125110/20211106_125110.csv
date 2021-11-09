@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_4_Validate Proifle or Environment,Firefox 93.0,,,2021-11-06 12:51:23,2021-11-06 12:52:24,1m - 1.091s,PASSED
+,,,,,,,
+Test Cases/TC_3_Manual Mode,Firefox 93.0,Create TC in Manual Mode and handle failure,,2021-11-06 12:51:23,2021-11-06 12:52:24,1m - 0.280s,PASSED
+openBrowser(URL),Firefox 93.0,,,2021-11-06 12:51:25,2021-11-06 12:52:05,40.526s,PASSED
+maximizeWindow(),Firefox 93.0,,,2021-11-06 12:52:05,2021-11-06 12:52:05,0.131s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Firefox 93.0,,,2021-11-06 12:52:05,2021-11-06 12:52:07,1.335s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Firefox 93.0,,,2021-11-06 12:52:07,2021-11-06 12:52:07,0.775s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Firefox 93.0,,,2021-11-06 12:52:07,2021-11-06 12:52:14,6.924s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Firefox 93.0,,,2021-11-06 12:52:14,2021-11-06 12:52:15,0.790s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Firefox 93.0,,,2021-11-06 12:52:15,2021-11-06 12:52:18,3.337s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Firefox 93.0,,,2021-11-06 12:52:18,2021-11-06 12:52:19,0.820s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Firefox 93.0,,,2021-11-06 12:52:19,2021-11-06 12:52:21,1.498s,PASSED
+closeBrowser(),Firefox 93.0,,,2021-11-06 12:52:21,2021-11-06 12:52:24,2.892s,PASSED

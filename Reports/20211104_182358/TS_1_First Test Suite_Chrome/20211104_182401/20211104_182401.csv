@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1_First Test Suite_Chrome,,,,2021-11-04 18:24:15,2021-11-04 18:24:30,15.100s,FAILED
+,,,,,,,
+Test Cases/TC_1_Facebook Login,,,,2021-11-04 18:24:16,2021-11-04 18:24:24,7.887s,FAILED
+"openBrowser("""")",,,,2021-11-04 18:24:16,2021-11-04 18:24:23,6.249s,FAILED
+"navigateToUrl(""https://www.facebook.com/"")",,,,2021-11-04 18:24:23,2021-11-04 18:24:23,0.108s,FAILED
+"setText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""invalidemial646364@gmail.com"")",,,,2021-11-04 18:24:23,2021-11-04 18:24:23,0.319s,FAILED
+"setEncryptedText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"")",,,,2021-11-04 18:24:23,2021-11-04 18:24:23,0.216s,FAILED
+"click(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In""))",,,,2021-11-04 18:24:23,2021-11-04 18:24:23,0.177s,FAILED
+"verifyElementPresent(findTestObject(""OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 400)",,,,2021-11-04 18:24:23,2021-11-04 18:24:24,0.163s,FAILED
+closeBrowser(),,,,2021-11-04 18:24:24,2021-11-04 18:24:24,0.060s,PASSED
+,,,,,,,
+Test Cases/TC_2_PIC Portal Login,,Facebook Login Page Validation,,2021-11-04 18:24:24,2021-11-04 18:24:27,3.156s,FAILED
+"openBrowser("""")",,,,2021-11-04 18:24:24,2021-11-04 18:24:26,1.780s,FAILED
+"navigateToUrl(""https://devpic.my-patient.com/Account/Login"")",,,,2021-11-04 18:24:26,2021-11-04 18:24:26,0.029s,FAILED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies""))",,,,2021-11-04 18:24:26,2021-11-04 18:24:26,0.239s,FAILED
+"setText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username""), ""abcdhsahahshssa"")",,,,2021-11-04 18:24:26,2021-11-04 18:24:26,0.161s,FAILED
+"setEncryptedText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password""), ""zfO4vmc9hqfbcPGAzD7hlg=="")",,,,2021-11-04 18:24:26,2021-11-04 18:24:27,0.131s,FAILED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Login""))",,,,2021-11-04 18:24:27,2021-11-04 18:24:27,0.145s,FAILED
+"verifyElementPresent(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password""), 0)",,,,2021-11-04 18:24:27,2021-11-04 18:24:27,0.111s,FAILED
+closeBrowser(),,,,2021-11-04 18:24:27,2021-11-04 18:24:27,0.014s,PASSED
+,,,,,,,
+Test Cases/TC_4_Script Mode,,TC with Script Mode,,2021-11-04 18:24:27,2021-11-04 18:24:30,3.396s,FAILED
+"openBrowser(""http://lifecharger.org/"")",,,,2021-11-04 18:24:27,2021-11-04 18:24:30,2.278s,FAILED
+maximizeWindow(),,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.038s,FAILED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.189s,FAILED
+"setText(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.201s,FAILED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit""))",,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.156s,FAILED
+"click(findTestObject(""Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home""))",,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.128s,FAILED
+closeBrowser(),,,,2021-11-04 18:24:30,2021-11-04 18:24:30,0.012s,PASSED

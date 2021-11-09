@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_4_Validate Proifle or Environment" time="31.209" tests="1" failures="0" errors="0">
+   <testsuite name="TS_4_Validate Proifle or Environment" tests="1" failures="0" errors="0" time="31.209" skipped="0" timestamp="2021-11-06 12:52:32" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_4_Validate Proifle or Environment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211106_125108\\TS_4_Validate Proifle or Environment\\20211106_125113"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211106_125108\\TS_4_Validate Proifle or Environment\\20211106_125113\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="6dbe51a2a5bb7fd50d38701b2623f6b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_3_Manual Mode" time="29.025" classname="Test Cases/TC_3_Manual Mode" status="PASSED">
+         <system-out><![CDATA[2021-11-06 12:52:32 - [TEST_CASE][PASSED] - Test Cases/TC_3_Manual Mode: Test Cases/TC_3_Manual Mode
+
+2021-11-06 12:52:33 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-06 12:52:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-06 12:52:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-06 12:52:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2021-11-06 12:52:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-06 12:52:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-06 12:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), Username): Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-06 12:52:49 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-11-06 12:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword"), Password): Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-06 12:52:50 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-11-06 12:52:50 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-06 12:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-11-06 12:52:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul"), 30): Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-06 12:52:56 - [MESSAGE][PASSED] - Object 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is present
+
+2021-11-06 12:52:56 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/img")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/img' is clicked on
+
+2021-11-06 12:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/img' is clicked on
+
+2021-11-06 12:52:58 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-06 12:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul' is clicked on
+
+2021-11-06 12:52:58 - [TEST_STEP][PASSED] - click(findTestObject("OR_3_Manual Mode/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-06 12:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_3_Manual Mode/Page_OrangeHRM/a_Logout' is clicked on
+
+2021-11-06 12:53:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-06 12:53:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-06 12:52:32 - [TEST_SUITE][PASSED] - TS_4_Validate Proifle or Environment: Test Cases/TC_3_Manual Mode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

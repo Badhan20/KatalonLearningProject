@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_d_4V\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook helps you connect and share with the people in your life.\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211105_131809/TS_1_First Test Suite_Chrome/20211105_131815/Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In_neighbor.png"
+    }
+  ]
+}

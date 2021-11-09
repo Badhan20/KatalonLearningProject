@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_1_First Test Suite_Chrome" time="250.718" tests="3" failures="0" errors="0">
+   <testsuite name="TS_1_First Test Suite_Chrome" tests="3" failures="0" errors="0" time="250.718" skipped="0" timestamp="2021-11-03 19:18:39" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_1_First Test Suite_Chrome">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\Katalon Studio\\FirstProject\\Reports\\20211103_191818\\TS_1_First Test Suite_Chrome\\20211103_191820"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\Katalon Studio\\FirstProject\\Reports\\20211103_191818\\TS_1_First Test Suite_Chrome\\20211103_191820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="9785700de29c136a62dcd50fb7730552"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_1_Facebook Login" time="54.782" classname="Test Cases/TC_1_Facebook Login" status="PASSED">
+         <system-out><![CDATA[2021-11-03 19:18:40 - [TEST_CASE][PASSED] - Test Cases/TC_1_Facebook Login: Test Cases/TC_1_Facebook Login
+
+2021-11-03 19:18:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-03 19:18:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 19:18:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 19:18:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-03 19:18:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2021-11-03 19:18:55 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-11-03 19:18:56 - [TEST_STEP][PASSED] - setText(findTestObject("OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "invalidemial646364@gmail.com"): Text 'invalidemial646364@gmail.com' is set on object 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2021-11-03 19:18:58 - [MESSAGE][PASSED] - Text 'invalidemial646364@gmail.com' is set on object 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2021-11-03 19:18:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"): Text ****** has been set on object 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2021-11-03 19:18:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2021-11-03 19:18:59 - [TEST_STEP][PASSED] - click(findTestObject("OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2021-11-03 19:19:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_4V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-11-03 19:19:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2021-11-03 19:19:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2021-11-03 19:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2021-11-03 19:19:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3"), 400): Object 'Object Repository/OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3' is present
+
+2021-11-03 19:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3' is present
+
+2021-11-03 19:19:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-03 19:19:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_2_PIC Portal Login" time="16.427" classname="Test Cases/TC_2_PIC Portal Login" status="PASSED">
+         <system-out><![CDATA[2021-11-03 19:19:35 - [TEST_CASE][PASSED] - Test Cases/TC_2_PIC Portal Login: Test Cases/TC_2_PIC Portal Login
+
+2021-11-03 19:19:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-03 19:19:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 19:19:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 19:19:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-03 19:19:39 - [TEST_STEP][PASSED] - navigateToUrl("https://devpic.my-patient.com/Account/Login"): Navigate to 'https://devpic.my-patient.com/Account/Login' successfully
+
+2021-11-03 19:19:44 - [MESSAGE][PASSED] - Navigate to 'https://devpic.my-patient.com/Account/Login' successfully
+
+2021-11-03 19:19:44 - [TEST_STEP][PASSED] - click(findTestObject("OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies")): Object: 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies' is clicked on
+
+2021-11-03 19:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies' is clicked on
+
+2021-11-03 19:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username"), "abcdhsahahshssa"): Text 'abcdhsahahshssa' is set on object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username'
+
+2021-11-03 19:19:47 - [MESSAGE][PASSED] - Text 'abcdhsahahshssa' is set on object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username'
+
+2021-11-03 19:19:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password"), "zfO4vmc9hqfbcPGAzD7hlg=="): Text ****** has been set on object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password'
+
+2021-11-03 19:19:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password'
+
+2021-11-03 19:19:47 - [TEST_STEP][PASSED] - click(findTestObject("OR_2_PIC Portal Login/PICPortalLogin/button_Login")): Object: 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/button_Login' is clicked on
+
+2021-11-03 19:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/button_Login' is clicked on
+
+2021-11-03 19:19:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password"), 0): Object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password' is present
+
+2021-11-03 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 19:19:50 - [MESSAGE][PASSED] - Object 'Object Repository/OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password' is present
+
+2021-11-03 19:19:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-03 19:19:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_4_Script Mode" time="176.666" classname="Test Cases/TC_4_Script Mode" status="PASSED">
+         <system-out><![CDATA[2021-11-03 19:19:51 - [TEST_CASE][PASSED] - Test Cases/TC_4_Script Mode: Test Cases/TC_4_Script Mode
+
+2021-11-03 19:19:52 - [TEST_STEP][PASSED] - openBrowser("http://lifecharger.org/"): Browser is opened with url: 'http://lifecharger.org/'
+
+2021-11-03 19:19:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 19:19:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 19:20:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://lifecharger.org/'
+
+2021-11-03 19:20:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 19:20:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 19:20:59 - [TEST_STEP][PASSED] - click(findTestObject("OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this")): Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2021-11-03 19:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this' is clicked on
+
+2021-11-03 19:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s"), "life"): Text 'life' is set on object 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s'
+
+2021-11-03 19:21:42 - [MESSAGE][PASSED] - Text 'life' is set on object 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s'
+
+2021-11-03 19:21:43 - [TEST_STEP][PASSED] - click(findTestObject("OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit")): Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2021-11-03 19:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2021-11-03 19:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home")): Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home' is clicked on
+
+2021-11-03 19:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home' is clicked on
+
+2021-11-03 19:22:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-03 19:22:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-03 19:18:39 - [TEST_SUITE][PASSED] - TS_1_First Test Suite_Chrome: Test Cases/TC_4_Script Mode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

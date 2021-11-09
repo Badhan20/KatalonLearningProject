@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_4_Validate Proifle or Environment,Chrome 95.0.4638.69,,,2021-11-06 13:03:41,2021-11-06 13:04:08,27.121s,PASSED
+,,,,,,,
+Test Cases/TC_3_Manual Mode,Chrome 95.0.4638.69,Create TC in Manual Mode and handle failure,,2021-11-06 13:03:42,2021-11-06 13:04:08,26.496s,PASSED
+openBrowser(URL),Chrome 95.0.4638.69,,,2021-11-06 13:03:42,2021-11-06 13:03:55,12.775s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-06 13:03:55,2021-11-06 13:03:55,0.212s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), Username)",Chrome 95.0.4638.69,,,2021-11-06 13:03:55,2021-11-06 13:03:56,0.965s,PASSED
+"setText(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Username_txtPassword""), Password)",Chrome 95.0.4638.69,,,2021-11-06 13:03:56,2021-11-06 13:03:57,0.790s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/input_Password_Submit""))",Chrome 95.0.4638.69,,,2021-11-06 13:03:57,2021-11-06 13:04:03,5.682s,PASSED
+"verifyElementPresent(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""), 30)",Chrome 95.0.4638.69,,,2021-11-06 13:04:03,2021-11-06 13:04:03,0.438s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/img""))",Chrome 95.0.4638.69,,,2021-11-06 13:04:03,2021-11-06 13:04:05,1.965s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Welcome Paul""))",Chrome 95.0.4638.69,,,2021-11-06 13:04:05,2021-11-06 13:04:05,0.438s,PASSED
+"click(findTestObject(""OR_3_Manual Mode/Page_OrangeHRM/a_Logout""))",Chrome 95.0.4638.69,,,2021-11-06 13:04:05,2021-11-06 13:04:07,1.572s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-06 13:04:07,2021-11-06 13:04:08,0.953s,PASSED

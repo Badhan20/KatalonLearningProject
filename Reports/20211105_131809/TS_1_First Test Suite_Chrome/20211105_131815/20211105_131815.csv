@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1_First Test Suite_Chrome,Chrome 95.0.4638.54,,,2021-11-05 13:18:17,2021-11-05 13:21:39,3m - 21.869s,PASSED
+,,,,,,,
+Test Cases/TC_1_Facebook Login,Chrome 95.0.4638.54,,,2021-11-05 13:18:17,2021-11-05 13:19:01,44.038s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-11-05 13:18:18,2021-11-05 13:18:20,2.109s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 95.0.4638.54,,,2021-11-05 13:18:20,2021-11-05 13:18:24,4.062s,PASSED
+"setText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""invalidemial646364@gmail.com"")",Chrome 95.0.4638.54,,,2021-11-05 13:18:24,2021-11-05 13:18:25,0.870s,PASSED
+"setEncryptedText(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""zPdkBIu2yzwV12AJZZyKxEFzqBOBfWMG"")",Chrome 95.0.4638.54,,,2021-11-05 13:18:25,2021-11-05 13:18:25,0.774s,PASSED
+"click(findTestObject(""OR_1_Facebook Login/Page_Facebook  log in or sign up/button_Log In""))",Chrome 95.0.4638.54,,,2021-11-05 13:18:25,2021-11-05 13:18:58,32.539s,PASSED
+"verifyElementPresent(findTestObject(""OR_1_Facebook Login/Page_Log in to Facebook/div_The email address you entered isnt conn_71e5d3""), 400)",Chrome 95.0.4638.54,,,2021-11-05 13:18:58,2021-11-05 13:19:01,2.817s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-11-05 13:19:01,2021-11-05 13:19:01,0.655s,PASSED
+,,,,,,,
+Test Cases/TC_2_PIC Portal Login,Chrome 95.0.4638.54,Facebook Login Page Validation,,2021-11-05 13:19:01,2021-11-05 13:19:22,20.201s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-11-05 13:19:02,2021-11-05 13:19:03,1.227s,PASSED
+"navigateToUrl(""https://devpic.my-patient.com/Account/Login"")",Chrome 95.0.4638.54,,,2021-11-05 13:19:03,2021-11-05 13:19:12,9.485s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Accept All Cookies""))",Chrome 95.0.4638.54,,,2021-11-05 13:19:12,2021-11-05 13:19:14,1.365s,PASSED
+"setText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Username_Username""), ""abcdhsahahshssa"")",Chrome 95.0.4638.54,,,2021-11-05 13:19:14,2021-11-05 13:19:15,1.581s,PASSED
+"setEncryptedText(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/input_Password_Password""), ""zfO4vmc9hqfbcPGAzD7hlg=="")",Chrome 95.0.4638.54,,,2021-11-05 13:19:15,2021-11-05 13:19:16,0.565s,PASSED
+"click(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/button_Login""))",Chrome 95.0.4638.54,,,2021-11-05 13:19:16,2021-11-05 13:19:20,4.625s,PASSED
+"verifyElementPresent(findTestObject(""OR_2_PIC Portal Login/PICPortalLogin/li_Invalid username or password""), 0)",Chrome 95.0.4638.54,,,2021-11-05 13:19:20,2021-11-05 13:19:21,0.602s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-11-05 13:19:21,2021-11-05 13:19:22,0.645s,PASSED
+,,,,,,,
+Test Cases/TC_4_Script Mode,Chrome 95.0.4638.54,TC with Script Mode,,2021-11-05 13:19:22,2021-11-05 13:21:39,2m - 17.369s,PASSED
+"openBrowser(""http://lifecharger.org/"")",Chrome 95.0.4638.54,,,2021-11-05 13:19:22,2021-11-05 13:20:02,39.985s,PASSED
+maximizeWindow(),Chrome 95.0.4638.54,,,2021-11-05 13:20:02,2021-11-05 13:20:02,0.156s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/a_Stretch Zone  Why Nobody talks about this""))",Chrome 95.0.4638.54,,,2021-11-05 13:20:02,2021-11-05 13:20:34,32.253s,PASSED
+"setText(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/input_Search for_s""), ""life"")",Chrome 95.0.4638.54,,,2021-11-05 13:20:34,2021-11-05 13:20:35,0.714s,PASSED
+"click(findTestObject(""OR_4_Script Mode/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Chrome 95.0.4638.54,,,2021-11-05 13:20:35,2021-11-05 13:21:08,33.001s,PASSED
+"click(findTestObject(""Object Repository/OR_4_Script Mode/Page_Life Charger   a new beginning/a_Home""))",Chrome 95.0.4638.54,,,2021-11-05 13:21:08,2021-11-05 13:21:38,30.521s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-11-05 13:21:38,2021-11-05 13:21:39,0.632s,PASSED

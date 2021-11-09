@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_3_API Test" time="6.535" tests="1" failures="0" errors="0">
+   <testsuite name="TS_3_API Test" tests="1" failures="0" errors="0" time="6.535" skipped="0" timestamp="2021-11-04 23:40:25" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_3_API Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211104_234019\\TS_3_API Test\\20211104_234019"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\KatalonLearningProject\\Reports\\20211104_234019\\TS_3_API Test\\20211104_234019\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/TC_5_API Test/Validate REST_SingleUserDetails" time="4.508" classname="Test Cases/TC_5_API Test/Validate REST_SingleUserDetails" status="PASSED">
+         <system-out><![CDATA[2021-11-04 23:40:26 - [TEST_CASE][PASSED] - Test Cases/TC_5_API Test/Validate REST_SingleUserDetails: Test Cases/TC_5_API Test/Validate REST_SingleUserDetails
+
+2021-11-04 23:40:27 - [TEST_STEP][PASSED] - responsebody = sendRequest(findTestObject("OR_5_API Test/REST_SingleUserDetails")): Send request successfully
+
+2021-11-04 23:40:30 - [MESSAGE][INFO] - HAR: C:\Users\BADHAN\git\KatalonLearningProject\Reports\20211104_234019\TS_3_API Test\20211104_234019\requests\main\0.har
+
+2021-11-04 23:40:30 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-04 23:40:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(responsebody, 200): Verify response status code successfully
+
+2021-11-04 23:40:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-04 23:40:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(responsebody, "data.first_name", "Janet"): Verify element property value successfully
+
+2021-11-04 23:40:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-04 23:40:25 - [TEST_SUITE][PASSED] - TS_3_API Test: Test Cases/TC_5_API Test/Validate REST_SingleUserDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
