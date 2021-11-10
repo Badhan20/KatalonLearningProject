@@ -15,6 +15,6 @@
       <guid>1e9af7cd-1c92-49d3-ba79-b2e36260b3e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_5_Validate REST_SingleUserDetails</testCaseId>
+      <testCaseId>Test Cases/TC_5_Validate RESTful API</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

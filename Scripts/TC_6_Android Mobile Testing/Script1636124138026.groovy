@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\BADHAN\\Downloads\\Calculator_v8.1 (403424005)_apkpure.com.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/OR_6_Android Mobile Testinh/android.widget.Button - 1'), 0)
+Mobile.tap(findTestObject('OR_6_Android Mobile Testing/android.widget.Button - 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/OR_6_Android Mobile Testinh/android.widget.Button -'), 0)
+Mobile.tap(findTestObject('OR_6_Android Mobile Testing/android.widget.Button -'), 0)
 
-Mobile.tap(findTestObject('Object Repository/OR_6_Android Mobile Testinh/android.widget.Button - 8'), 0)
+Mobile.tap(findTestObject('OR_6_Android Mobile Testing/android.widget.Button - 8'), 0)
 
-Mobile.tap(findTestObject('Object Repository/OR_6_Android Mobile Testinh/android.widget.Button - (1)'), 0)
+Mobile.tap(findTestObject('OR_6_Android Mobile Testing/android.widget.Button - (1)'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/OR_6_Android Mobile Testinh/android.widget.TextView - 9'), 
+Mobile.verifyElementVisible(findTestObject('OR_6_Android Mobile Testing/android.widget.TextView - 9'), 
     0)
 
 Mobile.closeApplication()

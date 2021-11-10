@@ -7,7 +7,7 @@
       <is-from-test-data>true</is-from-test-data>
       <source-url>Data Files/DF_2_CheckPointsTwo</source-url>
    </source-info>
-   <taken-date>2021-11-08T14:31:40.026</taken-date>
+   <taken-date>2021-11-10T18:26:59.383</taken-date>
    <column-names>
       <column-name>Username</column-name>
       <column-name>Password</column-name>
@@ -15,7 +15,7 @@
    <checkpoint-data><![CDATA[[
   [
     {
-      "value": "Admin",
+      "value": "Admin4",
       "checked": true
     },
     {
@@ -25,11 +25,21 @@
   ],
   [
     {
-      "value": "Admin2",
+      "value": "Admin24",
       "checked": true
     },
     {
       "value": "admin1234",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Admin3",
+      "checked": true
+    },
+    {
+      "value": "admin12345",
       "checked": true
     }
   ]

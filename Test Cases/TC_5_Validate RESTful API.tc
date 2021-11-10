@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Validate Single User Details with RESTful API</description>
-   <name>TC_5_Validate REST_SingleUserDetails</name>
+   <name>TC_5_Validate RESTful API</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>36e001e9-74a2-4af0-8eab-3b0f4d0fc10b</testCaseGuid>

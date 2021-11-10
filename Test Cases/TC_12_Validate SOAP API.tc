@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>API Data Driven Testing</description>
+   <name>TC_12_Validate SOAP API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69738cc5-6e99-4a0b-9250-1fef8b8c7480</testCaseGuid>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description></description>
+      <id>af251d06-ed90-4b4f-ad30-f34ed02bc216</id>
+      <masked>false</masked>
+      <name>CelsiusInput</name>
+   </variable>
+   <variable>
+      <defaultValue>'68'</defaultValue>
+      <description></description>
+      <id>14f600ed-77fd-4ce6-ba5f-5c9e955f7fe1</id>
+      <masked>false</masked>
+      <name>CelsiusOutput</name>
+   </variable>
+   <variable>
+      <defaultValue>50</defaultValue>
+      <description></description>
+      <id>93308601-772a-4b70-aa04-fab6613a0233</id>
+      <masked>false</masked>
+      <name>FarenheitInput</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>de2d7230-ea6d-4758-a5f1-90762b610783</id>
+      <masked>false</masked>
+      <name>FarenheitOutput</name>
+   </variable>
+   <variable>
+      <defaultValue>'978-1-4612-9090-2'</defaultValue>
+      <description></description>
+      <id>2965c960-f629-49bc-ba5c-71c7c9733477</id>
+      <masked>false</masked>
+      <name>ISBNNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'true'</defaultValue>
+      <description></description>
+      <id>7c643164-625b-4c59-89e9-42543dca1704</id>
+      <masked>false</masked>
+      <name>ISBNNumberOutput</name>
+   </variable>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>582dcc77-3a3f-4d65-b0e9-8a96dd29293a</id>
+      <masked>false</masked>
+      <name>NumberForDollar</name>
+   </variable>
+   <variable>
+      <defaultValue>'ten dollars'</defaultValue>
+      <description></description>
+      <id>484511c7-da03-4b10-9ed2-ddc2a2637072</id>
+      <masked>false</masked>
+      <name>NumberForDollarOutput</name>
+   </variable>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description></description>
+      <id>34976ca8-da81-4841-a41c-cdc6de281e5f</id>
+      <masked>false</masked>
+      <name>NumberForWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'twenty '</defaultValue>
+      <description></description>
+      <id>8e76a65b-fde8-4136-943d-afe9457fc93d</id>
+      <masked>false</masked>
+      <name>NumberForWordOutput</name>
+   </variable>
+</TestCaseEntity>

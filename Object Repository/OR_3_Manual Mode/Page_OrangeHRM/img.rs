@@ -6,15 +6,18 @@
    <elementGuidId>9bf56bf0-e20e-4cf4-bc5b-1c8b21437d5f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/webres_6051af48107ce6.31500353/orangehrmTimePlugin/images/MyTimesheet.png']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='dashboard-quick-launch-panel-menu_holder']/table/tbody/tr/td[6]/div/a/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

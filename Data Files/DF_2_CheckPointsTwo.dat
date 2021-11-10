@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>07c0e6fd-e26a-43de-8c87-41b4e089574f</dataFileGUID>
-   <dataSourceUrl>../../Desktop/CheckPointTwo.xlsx</dataSourceUrl>
+   <dataSourceUrl>CheckPointTwo.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

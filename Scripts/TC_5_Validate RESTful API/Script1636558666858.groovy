@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-responsebody = WS.sendRequest(findTestObject('OR_5_API Test/REST_SingleUserDetails'))
+responsebody = WS.sendRequest(findTestObject('OR_5_RESTful API/REST_SingleUserDetails'))
 
 WS.verifyResponseStatusCode(responsebody, 200)
 
