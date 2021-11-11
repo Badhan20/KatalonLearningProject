@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_8_Handle Alert Popup Boxes" time="77.442" tests="3" failures="0" errors="0">
+   <testsuite name="TS_8_Handle Alert Popup Boxes" tests="3" failures="0" errors="0" time="77.442" skipped="0" timestamp="2021-11-12 00:27:00" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_8_Handle Alert Popup Boxes">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211112_002647\\TS_8_Handle Alert Popup Boxes\\20211112_002647"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211112_002647\\TS_8_Handle Alert Popup Boxes\\20211112_002647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="4c93bf5b8384edfbaa60d7cffc9e96ba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_13_Handle Alert Popup - Alert Box" time="18.716" classname="Test Cases/TC_13_Handle Alert Popup - Alert Box" status="PASSED">
+         <system-out><![CDATA[2021-11-12 00:27:01 - [TEST_CASE][PASSED] - Test Cases/TC_13_Handle Alert Popup - Alert Box: Test Cases/TC_13_Handle Alert Popup - Alert Box
+
+2021-11-12 00:27:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-12 00:27:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-12 00:27:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-12 00:27:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-12 00:27:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert"): Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert' successfully
+
+2021-11-12 00:27:10 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert' successfully
+
+2021-11-12 00:27:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-12 00:27:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-12 00:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_10_Handle Alert Popup - Alert Box/Page_Tryit Editor v3.7/button_Try it")): Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_10_Handle Alert Popup - Alert Box/Page_Tryit Editor v3.7/button_Try it' is clicked on
+
+2021-11-12 00:27:11 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:11 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+2021-11-12 00:27:12 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2021-11-12 00:27:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:14 - [TEST_STEP][PASSED] - verifyAlertPresent(0): Alert is present after 30 second(s).
+
+2021-11-12 00:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-12 00:27:14 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2021-11-12 00:27:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:16 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-11-12 00:27:16 - [MESSAGE][PASSED] - Alert accepted
+
+2021-11-12 00:27:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-12 00:27:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_14_Handle Alert Popup - Confirm Box" time="22.811" classname="Test Cases/TC_14_Handle Alert Popup - Confirm Box" status="PASSED">
+         <system-out><![CDATA[2021-11-12 00:27:20 - [TEST_CASE][PASSED] - Test Cases/TC_14_Handle Alert Popup - Confirm Box: Test Cases/TC_14_Handle Alert Popup - Confirm Box
+
+2021-11-12 00:27:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-12 00:27:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-12 00:27:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-12 00:27:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-12 00:27:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm"): Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm' successfully
+
+2021-11-12 00:27:25 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm' successfully
+
+2021-11-12 00:27:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-12 00:27:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-12 00:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_11_Handle Alert Popup - Confirm Box/Page_Tryit Editor v3.7/button_Try it")): Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_11_Handle Alert Popup - Confirm Box/Page_Tryit Editor v3.7/button_Try it' is clicked on
+
+2021-11-12 00:27:27 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:29 - [TEST_STEP][PASSED] - verifyAlertPresent(0): Alert is present after 30 second(s).
+
+2021-11-12 00:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-12 00:27:29 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2021-11-12 00:27:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:31 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-11-12 00:27:31 - [MESSAGE][PASSED] - Alert accepted
+
+2021-11-12 00:27:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:33 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-11-12 00:27:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_11_Handle Alert Popup - Confirm Box/Page_Tryit Editor v3.7/button_Try it")): Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_11_Handle Alert Popup - Confirm Box/Page_Tryit Editor v3.7/button_Try it' is clicked on
+
+2021-11-12 00:27:37 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:39 - [TEST_STEP][PASSED] - dismissAlert(): Alert dismissed
+
+2021-11-12 00:27:39 - [MESSAGE][PASSED] - Alert dismissed
+
+2021-11-12 00:27:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-12 00:27:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_15_Handle Alert Popup - Prompt Box" time="21.574" classname="Test Cases/TC_15_Handle Alert Popup - Prompt Box" status="PASSED">
+         <system-out><![CDATA[2021-11-12 00:27:42 - [TEST_CASE][PASSED] - Test Cases/TC_15_Handle Alert Popup - Prompt Box: Test Cases/TC_15_Handle Alert Popup - Prompt Box
+
+2021-11-12 00:27:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-11-12 00:27:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-12 00:27:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-12 00:27:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-11-12 00:27:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt"): Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt' successfully
+
+2021-11-12 00:27:48 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt' successfully
+
+2021-11-12 00:27:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_11_Handle Alert Popup - Confirm Box/OR_12_Handle Alert Popup - Prompt Box/Page_Tryit Editor v3.7/button_Try it")): Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_11_Handle Alert Popup - Confirm Box/OR_12_Handle Alert Popup - Prompt Box/Page_Tryit Editor v3.7/button_Try it' is clicked on
+
+2021-11-12 00:27:51 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2021-11-12 00:27:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:53 - [TEST_STEP][PASSED] - verifyAlertPresent(0): Alert is present after 30 second(s).
+
+2021-11-12 00:27:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-12 00:27:53 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2021-11-12 00:27:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:55 - [TEST_STEP][PASSED] - alertText = getAlertText(STOP_ON_FAILURE): Get alert text successfully: 'Please enter your name:'
+
+2021-11-12 00:27:55 - [MESSAGE][PASSED] - Get alert text successfully: 'Please enter your name:'
+
+2021-11-12 00:27:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:57 - [TEST_STEP][PASSED] - verifyMatch(alertText, "Please enter your name:", true): Actual text 'Please enter your name:' and expected text 'Please enter your name:' are matched  using regular expression
+
+2021-11-12 00:27:57 - [MESSAGE][PASSED] - Actual text 'Please enter your name:' and expected text 'Please enter your name:' are matched  using regular expression
+
+2021-11-12 00:27:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:27:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:27:59 - [TEST_STEP][PASSED] - setAlertText("Mahfuz-Ul-Alam Badhan"): Set alert text 'Mahfuz-Ul-Alam Badhan' successfully
+
+2021-11-12 00:27:59 - [MESSAGE][PASSED] - Set alert text 'Mahfuz-Ul-Alam Badhan' successfully
+
+2021-11-12 00:27:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:28:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:28:01 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-11-12 00:28:01 - [MESSAGE][PASSED] - Alert accepted
+
+2021-11-12 00:28:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-12 00:28:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-12 00:28:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-12 00:28:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-12 00:27:00 - [TEST_SUITE][PASSED] - TS_8_Handle Alert Popup Boxes: Test Cases/TC_15_Handle Alert Popup - Prompt Box]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
