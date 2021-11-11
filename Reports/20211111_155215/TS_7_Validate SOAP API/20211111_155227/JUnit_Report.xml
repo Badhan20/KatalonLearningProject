@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_7_Validate SOAP API" time="8.066" tests="1" failures="0" errors="0">
+   <testsuite name="TS_7_Validate SOAP API" tests="1" failures="0" errors="0" time="8.066" skipped="0" timestamp="2021-11-11 15:52:37" hostname="malam - WSWD706002.relisource.com" id="Test Suites/TS_7_Validate SOAP API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\malam\\git\\KatalonLearningProject001\\Reports\\20211111_155215\\TS_7_Validate SOAP API\\20211111_155227"/>
+         <property name="logFiles" value="C:\\Users\\malam\\git\\KatalonLearningProject001\\Reports\\20211111_155215\\TS_7_Validate SOAP API\\20211111_155227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="malam - WSWD706002.relisource.com"/>
+         <property name="hostAddress" value="10.32.228.158"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/TC_12_Validate SOAP API" time="7.584" classname="Test Cases/TC_12_Validate SOAP API" status="PASSED">
+         <system-out><![CDATA[2021-11-11 15:52:37 - [TEST_CASE][PASSED] - Test Cases/TC_12_Validate SOAP API: Test Cases/TC_12_Validate SOAP API
+
+2021-11-11 15:52:37 - [TEST_STEP][PASSED] - res_Cel_To_Faren = sendRequest(findTestObject("OR_9_SOAP API/Celsius to Farenheit Conversion")): Send request successfully
+
+2021-11-11 15:52:40 - [MESSAGE][INFO] - HAR: C:\Users\malam\git\KatalonLearningProject001\Reports\20211111_155215\TS_7_Validate SOAP API\20211111_155227\requests\main\0.har
+
+2021-11-11 15:52:40 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-11 15:52:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(res_Cel_To_Faren, 200): Verify response status code successfully
+
+2021-11-11 15:52:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-11 15:52:40 - [TEST_STEP][PASSED] - verifyElementText(res_Cel_To_Faren, "CelsiusToFahrenheitResponse.CelsiusToFahrenheitResult", CelsiusOutput): Verify element text successfully
+
+2021-11-11 15:52:40 - [MESSAGE][PASSED] - Verify element text successfully
+
+2021-11-11 15:52:40 - [TEST_STEP][PASSED] - res_Faren_To_Cel = sendRequest(findTestObject("OR_9_SOAP API/Farenheit to Celsius Conversion")): Send request successfully
+
+2021-11-11 15:52:41 - [MESSAGE][INFO] - HAR: C:\Users\malam\git\KatalonLearningProject001\Reports\20211111_155215\TS_7_Validate SOAP API\20211111_155227\requests\main\1.har
+
+2021-11-11 15:52:41 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-11 15:52:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(res_Faren_To_Cel, 200): Verify response status code successfully
+
+2021-11-11 15:52:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-11 15:52:41 - [TEST_STEP][PASSED] - verifyElementText(res_Faren_To_Cel, "FahrenheitToCelsiusResponse.FahrenheitToCelsiusResult", FarenheitOutput): Verify element text successfully
+
+2021-11-11 15:52:41 - [MESSAGE][PASSED] - Verify element text successfully
+
+2021-11-11 15:52:41 - [TEST_STEP][PASSED] - res_ISBN_Number = sendRequest(findTestObject("OR_9_SOAP API/Is Valid ISBN13 Number")): Send request successfully
+
+2021-11-11 15:52:42 - [MESSAGE][INFO] - HAR: C:\Users\malam\git\KatalonLearningProject001\Reports\20211111_155215\TS_7_Validate SOAP API\20211111_155227\requests\main\2.har
+
+2021-11-11 15:52:42 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-11 15:52:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(res_ISBN_Number, 200): Verify response status code successfully
+
+2021-11-11 15:52:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-11 15:52:42 - [TEST_STEP][PASSED] - verifyElementText(res_ISBN_Number, "IsValidISBN13Response.IsValidISBN13Result", ISBNNumberOutput): Verify element text successfully
+
+2021-11-11 15:52:42 - [MESSAGE][PASSED] - Verify element text successfully
+
+2021-11-11 15:52:42 - [TEST_STEP][PASSED] - res_Num_To_Dollar = sendRequest(findTestObject("OR_9_SOAP API/Number to Dollars Conversion")): Send request successfully
+
+2021-11-11 15:52:43 - [MESSAGE][INFO] - HAR: C:\Users\malam\git\KatalonLearningProject001\Reports\20211111_155215\TS_7_Validate SOAP API\20211111_155227\requests\main\3.har
+
+2021-11-11 15:52:43 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-11 15:52:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(res_Num_To_Dollar, 200): Verify response status code successfully
+
+2021-11-11 15:52:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-11 15:52:43 - [TEST_STEP][PASSED] - verifyElementText(res_Num_To_Dollar, "NumberToDollarsResponse.NumberToDollarsResult", NumberForDollarOutput): Verify element text successfully
+
+2021-11-11 15:52:43 - [MESSAGE][PASSED] - Verify element text successfully
+
+2021-11-11 15:52:43 - [TEST_STEP][PASSED] - res_Number_To_Word = sendRequest(findTestObject("OR_9_SOAP API/Number to Words Conversion")): Send request successfully
+
+2021-11-11 15:52:45 - [MESSAGE][INFO] - HAR: C:\Users\malam\git\KatalonLearningProject001\Reports\20211111_155215\TS_7_Validate SOAP API\20211111_155227\requests\main\4.har
+
+2021-11-11 15:52:45 - [MESSAGE][PASSED] - Send request successfully
+
+2021-11-11 15:52:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(res_Number_To_Word, 200): Verify response status code successfully
+
+2021-11-11 15:52:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-11-11 15:52:45 - [TEST_STEP][PASSED] - verifyElementText(res_Number_To_Word, "NumberToWordsResponse.NumberToWordsResult", NumberForWordOutput): Verify element text successfully
+
+2021-11-11 15:52:45 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-11 15:52:37 - [TEST_SUITE][PASSED] - TS_7_Validate SOAP API: Test Cases/TC_12_Validate SOAP API]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

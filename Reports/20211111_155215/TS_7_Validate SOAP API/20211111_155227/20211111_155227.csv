@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_7_Validate SOAP API,,,,2021-11-11 15:52:37,2021-11-11 15:52:45,7.804s,PASSED
+,,,,,,,
+Test Cases/TC_12_Validate SOAP API,,API Data Driven Testing,,2021-11-11 15:52:37,2021-11-11 15:52:45,7.584s,PASSED
+"res_Cel_To_Faren = sendRequest(findTestObject(""OR_9_SOAP API/Celsius to Farenheit Conversion""))",,,,2021-11-11 15:52:37,2021-11-11 15:52:40,2.502s,PASSED
+"verifyResponseStatusCode(res_Cel_To_Faren, 200)",,,,2021-11-11 15:52:40,2021-11-11 15:52:40,0.010s,PASSED
+"verifyElementText(res_Cel_To_Faren, ""CelsiusToFahrenheitResponse.CelsiusToFahrenheitResult"", CelsiusOutput)",,,,2021-11-11 15:52:40,2021-11-11 15:52:40,0.162s,PASSED
+"res_Faren_To_Cel = sendRequest(findTestObject(""OR_9_SOAP API/Farenheit to Celsius Conversion""))",,,,2021-11-11 15:52:40,2021-11-11 15:52:41,1.222s,PASSED
+"verifyResponseStatusCode(res_Faren_To_Cel, 200)",,,,2021-11-11 15:52:41,2021-11-11 15:52:41,0.002s,PASSED
+"verifyElementText(res_Faren_To_Cel, ""FahrenheitToCelsiusResponse.FahrenheitToCelsiusResult"", FarenheitOutput)",,,,2021-11-11 15:52:41,2021-11-11 15:52:41,0.017s,PASSED
+"res_ISBN_Number = sendRequest(findTestObject(""OR_9_SOAP API/Is Valid ISBN13 Number""))",,,,2021-11-11 15:52:41,2021-11-11 15:52:42,0.822s,PASSED
+"verifyResponseStatusCode(res_ISBN_Number, 200)",,,,2021-11-11 15:52:42,2021-11-11 15:52:42,0.003s,PASSED
+"verifyElementText(res_ISBN_Number, ""IsValidISBN13Response.IsValidISBN13Result"", ISBNNumberOutput)",,,,2021-11-11 15:52:42,2021-11-11 15:52:42,0.017s,PASSED
+"res_Num_To_Dollar = sendRequest(findTestObject(""OR_9_SOAP API/Number to Dollars Conversion""))",,,,2021-11-11 15:52:42,2021-11-11 15:52:43,1.162s,PASSED
+"verifyResponseStatusCode(res_Num_To_Dollar, 200)",,,,2021-11-11 15:52:43,2021-11-11 15:52:43,0.002s,PASSED
+"verifyElementText(res_Num_To_Dollar, ""NumberToDollarsResponse.NumberToDollarsResult"", NumberForDollarOutput)",,,,2021-11-11 15:52:43,2021-11-11 15:52:43,0.016s,PASSED
+"res_Number_To_Word = sendRequest(findTestObject(""OR_9_SOAP API/Number to Words Conversion""))",,,,2021-11-11 15:52:43,2021-11-11 15:52:45,1.171s,PASSED
+"verifyResponseStatusCode(res_Number_To_Word, 200)",,,,2021-11-11 15:52:45,2021-11-11 15:52:45,0.002s,PASSED
+"verifyElementText(res_Number_To_Word, ""NumberToWordsResponse.NumberToWordsResult"", NumberForWordOutput)",,,,2021-11-11 15:52:45,2021-11-11 15:52:45,0.017s,PASSED
