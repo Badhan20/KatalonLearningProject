@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_11_Desktop Application,,,,2021-11-13 17:46:40,2021-11-13 17:47:06,25.961s,PASSED
+,,,,,,,
+Test Cases/TC_18_Desktop Application,,,,2021-11-13 17:46:41,2021-11-13 17:47:06,25.266s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\calc.exe"", ""Calculator"")",,,,2021-11-13 17:46:42,2021-11-13 17:47:02,20.397s,PASSED
+"click(findWindowsObject(""Object Repository/OR_13_Desktop Application/Button""))",,,,2021-11-13 17:47:02,2021-11-13 17:47:03,1.003s,PASSED
+"click(findWindowsObject(""Object Repository/OR_13_Desktop Application/Button(1)""))",,,,2021-11-13 17:47:03,2021-11-13 17:47:04,0.724s,PASSED
+"click(findWindowsObject(""Object Repository/OR_13_Desktop Application/Button(2)""))",,,,2021-11-13 17:47:04,2021-11-13 17:47:05,0.697s,PASSED
+"click(findWindowsObject(""Object Repository/OR_13_Desktop Application/Button(3)""))",,,,2021-11-13 17:47:05,2021-11-13 17:47:05,0.711s,PASSED
+"clearText(findWindowsObject(""Object Repository/OR_13_Desktop Application/Text""))",,,,2021-11-13 17:47:05,2021-11-13 17:47:06,0.521s,PASSED
+closeApplication(),,,,2021-11-13 17:47:06,2021-11-13 17:47:06,0.197s,PASSED

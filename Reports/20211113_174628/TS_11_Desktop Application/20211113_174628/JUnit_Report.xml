@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_11_Desktop Application" time="35.55" tests="1" failures="0" errors="0">
+   <testsuite name="TS_11_Desktop Application" tests="1" failures="0" errors="0" time="35.55" skipped="0" timestamp="2021-11-13 17:46:40" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_11_Desktop Application">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211113_174628\\TS_11_Desktop Application\\20211113_174628"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211113_174628\\TS_11_Desktop Application\\20211113_174628\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="hostAddress" value="192.168.100.90"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="winAppDriverUrl" value="http://127.0.0.1:4723/"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/TC_18_Desktop Application" time="25.266" classname="Test Cases/TC_18_Desktop Application" status="PASSED">
+         <system-out><![CDATA[2021-11-13 17:46:41 - [TEST_CASE][PASSED] - Test Cases/TC_18_Desktop Application: Test Cases/TC_18_Desktop Application
+
+2021-11-13 17:46:42 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Windows\System32\calc.exe", "Calculator"): The application at location: C:\Windows\System32\calc.exe started.
+
+2021-11-13 17:46:42 - [MESSAGE][INFO] - Starting application C:\Windows\System32\calc.exe on the test machine at address http://127.0.0.1:4723/
+
+2021-11-13 17:46:46 - [MESSAGE][INFO] - Start finding a window that matches with title 'C:\Windows\System32\calc.exe' in 120,000 millisecond(s)
+
+2021-11-13 17:47:02 - [MESSAGE][PASSED] - The application at location: C:\Windows\System32\calc.exe started.
+
+2021-11-13 17:47:02 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/OR_13_Desktop Application/Button")): Click on element: Object Repository/OR_13_Desktop Application/Button succesfully
+
+2021-11-13 17:47:03 - [MESSAGE][INFO] - Clicking on element: Object Repository/OR_13_Desktop Application/Button
+
+2021-11-13 17:47:03 - [MESSAGE][PASSED] - Click on element: Object Repository/OR_13_Desktop Application/Button succesfully
+
+2021-11-13 17:47:03 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/OR_13_Desktop Application/Button(1)")): Click on element: Object Repository/OR_13_Desktop Application/Button(1) succesfully
+
+2021-11-13 17:47:04 - [MESSAGE][INFO] - Clicking on element: Object Repository/OR_13_Desktop Application/Button(1)
+
+2021-11-13 17:47:04 - [MESSAGE][PASSED] - Click on element: Object Repository/OR_13_Desktop Application/Button(1) succesfully
+
+2021-11-13 17:47:04 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/OR_13_Desktop Application/Button(2)")): Click on element: Object Repository/OR_13_Desktop Application/Button(2) succesfully
+
+2021-11-13 17:47:04 - [MESSAGE][INFO] - Clicking on element: Object Repository/OR_13_Desktop Application/Button(2)
+
+2021-11-13 17:47:05 - [MESSAGE][PASSED] - Click on element: Object Repository/OR_13_Desktop Application/Button(2) succesfully
+
+2021-11-13 17:47:05 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/OR_13_Desktop Application/Button(3)")): Click on element: Object Repository/OR_13_Desktop Application/Button(3) succesfully
+
+2021-11-13 17:47:05 - [MESSAGE][INFO] - Clicking on element: Object Repository/OR_13_Desktop Application/Button(3)
+
+2021-11-13 17:47:05 - [MESSAGE][PASSED] - Click on element: Object Repository/OR_13_Desktop Application/Button(3) succesfully
+
+2021-11-13 17:47:05 - [TEST_STEP][PASSED] - clearText(findWindowsObject("Object Repository/OR_13_Desktop Application/Text")): Clear text on element: Object Repository/OR_13_Desktop Application/Text succesfully
+
+2021-11-13 17:47:06 - [MESSAGE][PASSED] - Clear text on element: Object Repository/OR_13_Desktop Application/Text succesfully
+
+2021-11-13 17:47:06 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2021-11-13 17:47:06 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-13 17:46:40 - [TEST_SUITE][PASSED] - TS_11_Desktop Application: Test Cases/TC_18_Desktop Application]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

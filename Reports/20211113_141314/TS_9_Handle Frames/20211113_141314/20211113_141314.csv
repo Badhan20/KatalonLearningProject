@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_9_Handle Frames,Chrome 95.0.4638.69,,,2021-11-13 14:13:29,2021-11-13 14:13:41,11.983s,PASSED
+,,,,,,,
+Test Cases/TC_16_Handle Frames,Chrome 95.0.4638.69,,,2021-11-13 14:13:30,2021-11-13 14:13:41,11.230s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-13 14:13:31,2021-11-13 14:13:36,5.230s,PASSED
+"navigateToUrl(""https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html"")",Chrome 95.0.4638.69,,,2021-11-13 14:13:36,2021-11-13 14:13:39,2.440s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-13 14:13:39,2021-11-13 14:13:39,0.238s,PASSED
+"switchToFrame(findTestObject(""OR_12_Handle Frames/Page_Overview/iframe_Capture object_packageListFrame""), 2)",Chrome 95.0.4638.69,,,2021-11-13 14:13:39,2021-11-13 14:13:39,0.700s,PASSED
+"click(findTestObject(""OR_12_Handle Frames/Page_Overview/a_org.openqa.selenium""))",Chrome 95.0.4638.69,,,2021-11-13 14:13:39,2021-11-13 14:13:40,0.463s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-13 14:13:40,2021-11-13 14:13:41,0.973s,PASSED

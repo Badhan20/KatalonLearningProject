@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_10_Install Chrome Extensions - Runtime,Chrome 95.0.4638.69,,,2021-11-13 16:55:16,2021-11-13 16:55:29,13.399s,PASSED
+,,,,,,,
+Test Cases/TC_17_Install Chrome Extensions - Runtime,Chrome 95.0.4638.69,,,2021-11-13 16:55:16,2021-11-13 16:55:29,12.749s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:/Katalon_Studio_Windows_64-8.1.0/configuration/resources/drivers/chromedriver_win32/chromedriver.exe"")",Chrome 95.0.4638.69,,,2021-11-13 16:55:17,2021-11-13 16:55:17,0.003s,PASSED
+options = new org.openqa.selenium.chrome.ChromeOptions(),Chrome 95.0.4638.69,,,2021-11-13 16:55:17,2021-11-13 16:55:17,0.060s,PASSED
+options.addExtensions(new java.io.File(C:/Users/BADHAN/git/Katalon Learning Project/ndgimibanhlabgdgjcpbbndiehljcpfh/4.1.3_0.crx)),Chrome 95.0.4638.69,,,2021-11-13 16:55:17,2021-11-13 16:55:17,0.032s,PASSED
+caps = new org.openqa.selenium.remote.DesiredCapabilities(),Chrome 95.0.4638.69,,,2021-11-13 16:55:17,2021-11-13 16:55:17,0.024s,PASSED
+"caps.setCapability(CAPABILITY, options)",Chrome 95.0.4638.69,,,2021-11-13 16:55:17,2021-11-13 16:55:18,0.235s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(caps),Chrome 95.0.4638.69,,,2021-11-13 16:55:18,2021-11-13 16:55:23,5.145s,PASSED
+changeWebDriver(driver),Chrome 95.0.4638.69,,,2021-11-13 16:55:23,2021-11-13 16:55:23,0.186s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 95.0.4638.69,,,2021-11-13 16:55:23,2021-11-13 16:55:26,2.724s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-11-13 16:55:26,2021-11-13 16:55:26,0.205s,PASSED
+delay(2),Chrome 95.0.4638.69,,,2021-11-13 16:55:26,2021-11-13 16:55:28,2.077s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-11-13 16:55:28,2021-11-13 16:55:29,0.957s,PASSED

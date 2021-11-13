@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_10_Install Chrome Extensions - Runtime" time="22.66" tests="1" failures="0" errors="0">
+   <testsuite name="TS_10_Install Chrome Extensions - Runtime" tests="1" failures="0" errors="0" time="22.66" skipped="0" timestamp="2021-11-13 16:55:16" hostname="BADHAN - BADHAN-PC" id="Test Suites/TS_10_Install Chrome Extensions - Runtime">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211113_165502\\TS_10_Install Chrome Extensions - Runtime\\20211113_165502"/>
+         <property name="logFiles" value="C:\\Users\\BADHAN\\git\\Katalon Learning Project\\Reports\\20211113_165502\\TS_10_Install Chrome Extensions - Runtime\\20211113_165502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BADHAN - BADHAN-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="3e46d9a62e99fbd08ace967a049c5c4b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_17_Install Chrome Extensions - Runtime" time="12.749" classname="Test Cases/TC_17_Install Chrome Extensions - Runtime" status="PASSED">
+         <system-out><![CDATA[2021-11-13 16:55:16 - [TEST_CASE][PASSED] - Test Cases/TC_17_Install Chrome Extensions - Runtime: Test Cases/TC_17_Install Chrome Extensions - Runtime
+
+2021-11-13 16:55:17 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Katalon_Studio_Windows_64-8.1.0/configuration/resources/drivers/chromedriver_win32/chromedriver.exe"): null
+
+2021-11-13 16:55:17 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2021-11-13 16:55:17 - [TEST_STEP][PASSED] - options.addExtensions(new java.io.File(C:/Users/BADHAN/git/Katalon Learning Project/ndgimibanhlabgdgjcpbbndiehljcpfh/4.1.3_0.crx)): null
+
+2021-11-13 16:55:17 - [TEST_STEP][PASSED] - caps = new org.openqa.selenium.remote.DesiredCapabilities(): null
+
+2021-11-13 16:55:17 - [TEST_STEP][PASSED] - caps.setCapability(CAPABILITY, options): null
+
+2021-11-13 16:55:18 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(caps): null
+
+2021-11-13 16:55:23 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2021-11-13 16:55:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2021-11-13 16:55:26 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2021-11-13 16:55:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-13 16:55:26 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-13 16:55:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-11-13 16:55:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-11-13 16:55:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-11-13 16:55:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-13 16:55:16 - [TEST_SUITE][PASSED] - TS_10_Install Chrome Extensions - Runtime: Test Cases/TC_17_Install Chrome Extensions - Runtime]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
